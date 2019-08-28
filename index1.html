@@ -1,0 +1,3833 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hungry Birds</title>
+    <link rel="icon" href="images/hungry.jpeg" type="images/jpeg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="hungry2.jpg">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicons -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/custom-responsive-style.css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    
+    
+     <script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="script/plugin-active.js"></script>
+
+    
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="script/all-plugins.js"></script>
+   
+
+
+   <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 58%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.clos {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.clos:hover,
+.clos:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.clo {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.clo:hover,
+.clo:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cl {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cl:hover,
+.cl:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.c:hover,
+.c:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cumilla {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cumilla:hover,
+.cumilla:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cumill {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cumill:hover,
+.cumill:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cumil {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cumil:hover,
+.cumil:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cumi {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cumi:hover,
+.cumi:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cum {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cum:hover,
+.cum:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cu {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cu:hover,
+.cu:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pakistan {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pakistan:hover,
+.pakistan:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.new .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: -30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.new .fa:hover {
+    opacity: 0.7;
+}
+
+.new .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.new .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.new .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.new .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.new .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.new .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.new .fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.new .fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.new .fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.new .fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.new .fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.new .fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.new .fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.new .fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.new .fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
+    
+</head>
+<body data-spy="scroll" data-target=".main-navigation" data-offset="150">
+    <section id="MainContainer">
+        
+        <header id="Header">
+            <nav class="main-navigation">
+                <div class="container clearfix">
+
+                    <div class="site-logo-wrap">
+                            <div class="p1" style="float: left;">
+                                <a href=""><img style="" src="images/hungry.jpeg" alt=""></a>
+                            </div>
+                            <div class="p2" style="float: left; width: 55%; ">
+                               
+                                <div class="pp1 " style=""><span style=" font-weight: bold; color: yellow; ">HUNGRY<sup style="vertical-align: super; font-size: smaller;">©</sup></span> </div>
+                                
+                                <div class="pp2" style=" font-weight: bold; color: yellow;"><span>BIRDS</span></div>    
+                            </div>
+
+                    </div>
+                    
+
+
+                    <a href="javascript:void(0)" class="menu-trigger hidden-lg-up"><span>&nbsp;</span></a>
+
+                   
+                    <div class="main-menu hidden-md-down">
+                        <ul class="menu-list">
+
+                            <li><a class="nav-link" href="javascript:void(0)" data-target="#HeroBanner">Home</a></li>
+                            <li><a class="nav-link" href="javascript:void(0)" data-target="#Services">Restaurants</a></li>
+                            <li><a class="nav-link" href="javascript:void(0)" data-target="#About">About</a></li>
+                            <li><a class="nav-link" href="javascript:void(0)" data-target="#Portfolio">Best Food</a></li>
+                            <li><a class="nav-link" href="javascript:void(0)" data-target="#ContactUs">Contact</a></li>
+                        </ul>
+                    </div>
+                     <div class="help" style="float: right;">
+                        
+
+                            <a style="color: white;">Need help ordering?<br>Call: <span style="color: yellow;">01961 666 333</span></a>
+                            
+                       
+                    </div>
+                </div>
+                <div class="mobile-menu hidden-lg-up">
+                    <ul class="mobile-menu-list">
+                        <li><a class="nav-link" href="javascript:void(0)" data-target="#Home">Home</a></li>
+                        <li><a class="nav-link" href="javascript:void(0)" data-target="#Services">Restaurants</a></li>
+                        <li><a class="nav-link" href="javascript:void(0)" data-target="#About">About</a></li>
+                        <li><a class="nav-link" href="javascript:void(0)" data-target="#Portfolio">Best Food</a></li>
+                        <li><a class="nav-link" href="javascript:void(0)" data-target="#ContactUs">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+       
+        <section id="HeroBanner">
+            <div class="hero-content">
+                <h1>Welcome to HUNGRY BIRDS</h1>
+                <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none; color: white;" href="#"><span style="color:yellow;">We deliver from 11:00 AM-10:00 PM</span></a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FDhaka" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+
+                
+            </div>
+
+        </section>
+        
+        <section id="Services">
+            <div class="container">
+                <div class="block-heading">
+                    <h2>Restaurants</h2>
+                    <p>Best Food For You & Your Family</p>
+                </div>
+                
+            <div class="services-wrapper">
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true" ></i></div>
+                        
+  <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="ess" >71 ESSENCE</button>
+
+  
+  <p class="service-description">Police line, Beside Cumilla Govt College, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="essn" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="close" style="color:red;">&times;</span>
+    <span><h5 class="service-title">71 ESSENCE</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>71 SPECIAL BURGER</td>
+        <td>1</td>
+        <td>575/=</td>
+      </tr>      
+      <tr class="success">
+        <td>71 SPECIAL CHOWMEIN</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="danger">
+        <td>71 SPECIAL PASTA</td>
+        <td>1</td>
+        <td>290/=</td>
+      </tr>
+      <tr class="info">
+        <td>71 SPECIAL SANDWICH</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="warning">
+        <td>ARABIAN PASTA</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="active">
+        <td>ARABIAN SHWARMA</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="active">
+        <td>ARABIAN SHWARMA</td>
+        <td>1 With Fries</td>
+        <td>192/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BBQ CHICKEN SANDWICH</td>
+        <td>1</td>
+        <td>65/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BEEF CHOWMEIN</td>
+        <td>1:2</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF CHOWMEIN</td>
+        <td>1:1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BEEF SUB SANDWICH</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="active">
+        <td>BUFFALO WINGS</td>
+        <td>4 PCS</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="success">
+        <td>CHICKEN SUB SANDWICH</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN CHOWMEIN</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN CHOWMEIN</td>
+        <td>1:2</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN NUGGETS</td>
+        <td>12 PCS</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="info">
+        <td>CLUB SANDWICH</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="success">
+        <td>CRISPY CHICKEN BURGER</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CRISPY FRIED CHICKEN</td>
+        <td>9 PCS</td>
+        <td>950/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY FRIED CHICKEN</td>
+        <td>1 PCS</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CRISPY FRIED CHICKEN</td>
+        <td>5 PCS</td>
+        <td>500/=</td>
+      </tr>
+      <tr class="active">
+        <td>FRENCH FRIES</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="info">
+        <td>GRILLED BEEF BURGER</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="success">
+        <td>GRILLED CHICKEN BURGER</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>JUMBO BURGER</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="info">
+        <td>MEXICAN WINGS</td>
+        <td>6 PCS</td>
+        <td>170/=</td>
+      </tr>
+      <tr class="warning">
+        <td>MIXED CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="active">
+        <td>OVEN BAKED PASTA</td>
+        <td>1</td>
+        <td>230/=</td>
+      </tr>
+      <tr class="info">
+        <td>PASTA BASTA</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="success">
+        <td>PITZZA BURGER</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PROWN CHOWMEIN</td>
+        <td>1</td>
+        <td>290/=</td>
+      </tr>
+      <tr class="info">
+        <td>WHITE CREAM PASTA</td>
+        <td>1</td>
+        <td>210/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SPICY BUFFELO WINGS</td>
+        <td>4 PCS</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="active">
+        <td>SPICY CHEESY GURLIC BREAD</td>
+        <td>6 PCS</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPICY PASTA</td>
+        <td>1</td>
+        <td>230/=</td>
+      </tr>
+      <tr class="success">
+        <td>THAI FRIED CHICKEN</td>
+        <td>1 PC</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="danger">
+        <td>VEGETABLE CHOWMEIN</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("essn");
+
+// Get the button that opens the modal
+var btn = document.getElementById("ess");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+                        
+
+                    
+
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        
+                           
+   <!-- Trigger/Open The Modal -->
+   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myBtn" >KUTUMBARI</button>
+  <p class="service-description">Police line, Beside Cumilla Govt College, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="clos">&times;</span>
+    <span><h5 class="service-title">KUTUMBARI</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>BEEF TEHERI(FULL)</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BEEF TEHERI(HALF)</td>
+        <td>1</td>
+        <td>85</td>
+      </tr>
+      <tr class="danger">
+        <td>BHUNA KHICHURI(FULL)</td>
+        <td>1</td>
+        <td>115/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN KACCHI</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="warning">
+        <td>FIRNI (CUP)</td>
+        <td>1</td>
+        <td>20/=</td>
+      </tr>
+      <tr class="active">
+        <td>KABAB</td>
+        <td>1</td>
+        <td>25/=</td>
+      </tr>
+      <tr class="active">
+        <td>KACCHI WEDDING PLATTER</td>
+        <td>1:2</td>
+        <td>399/=</td>
+      </tr>      
+      <tr class="success">
+        <td>KACCHI (CHICKEN)</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MOROG POLAO</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="info">
+        <td>MUTTON KACCHI</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SPECIAL BHUNA KHICHURI</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="active">
+        <td>SPECIAL BORHANI</td>
+        <td>1 GLASS</td>
+        <td>30/=</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var moda = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var bt = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var spa = document.getElementsByClassName("clos")[0];
+
+// When the user clicks the button, open the modal 
+bt.onclick = function() {
+  moda.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spa.onclick = function() {
+  moda.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == moda) {
+    moda.style.display = "none";
+  }
+}
+</script>
+ 
+            
+                       
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" ></i></div>
+<!-- Trigger/Open The Modal -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myBt" >BURGER & CO</button>
+
+  
+  <p class="service-description">Opposite of Cumilla Zilla School,Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="myModa" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="clo">&times;</span>
+    <span><h5 class="service-title">BURGER & CO</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>B & C GIANT</td>
+        <td>1</td>
+        <td>259/=</td>
+      </tr>      
+      <tr class="success">
+        <td>B & C NAGA</td>
+        <td>1</td>
+        <td>179/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BBQ BUCKET</td>
+        <td>1</td>
+        <td>219/=</td>
+      </tr>
+      <tr class="info">
+        <td>BBQ SAUCE</td>
+        <td>1</td>
+        <td>20/=</td>
+      </tr>
+      <tr class="warning">
+        <td>AAM PANNA</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="active">
+        <td>BABY NACHOS</td>
+        <td>1</td>
+        <td>179/=</td>
+      </tr>
+      <tr class="info">
+        <td>BBQ BURGER</td>
+        <td>1</td>
+        <td>149/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHEESE DELIGHT</td>
+        <td>1</td>
+        <td>259/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CHEESE BURGER</td>
+        <td>1</td>
+        <td>159/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHILI FLEX</td>
+        <td>1</td>
+        <td>10/=</td>
+      </tr>
+      <tr class="warning">
+        <td>COLD COFFEE</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="active">
+        <td>COUPLE PLATTER</td>
+        <td>1</td>
+        <td>499/=</td>
+      </tr>
+       <tr class="info">
+        <td>DECKER PLATTER</td>
+        <td>1</td>
+        <td>249/=</td>
+      </tr>      
+      <tr class="success">
+        <td>DELIGHT PLATTER</td>
+        <td>1</td>
+        <td>299/=</td>
+      </tr>
+      <tr class="danger">
+        <td>DOUBLE DECKER</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="info">
+        <td>EXTRA CHEESE</td>
+        <td>1</td>
+        <td>30/=</td>
+      </tr>
+      <tr class="warning">
+        <td>FRENCH FRY</td>
+        <td>1</td>
+        <td>99/=</td>
+      </tr>
+      <tr class="active">
+        <td>FRIED NUGGETS</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>HAMBA PLATTER</td>
+        <td>1</td>
+        <td>199/=</td>
+      </tr>      
+      <tr class="success">
+        <td>HAPPY COUPLE PLATTER</td>
+        <td>1</td>
+        <td>500/=</td>
+      </tr>
+      <tr class="danger">
+        <td>HUNGRY FOLKS</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="info">
+        <td>KITKAT SHAKE</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="warning">
+        <td>LOVE BIRDS</td>
+        <td>1</td>
+        <td>500/=</td>
+      </tr>
+      <tr class="active">
+        <td>MANGO SHAKE</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+       <tr class="info">
+        <td>OREO SHAKE</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>      
+      <tr class="success">
+        <td>REGULAR BURGER</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="danger">
+        <td>STEAK BURGER</td>
+        <td>1</td>
+        <td>199/=</td>
+      </tr>
+      <tr class="info">
+        <td>STUDENT BURGER</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SUB BURGER</td>
+        <td>1</td>
+        <td>149/=</td>
+      </tr>
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var mod = document.getElementById("myModa");
+
+// Get the button that opens the modal
+var b = document.getElementById("myBt");
+
+// Get the <span> element that closes the modal
+var sp = document.getElementsByClassName("clo")[0];
+
+// When the user clicks the button, open the modal 
+b.onclick = function() {
+  mod.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+sp.onclick = function() {
+  mod.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == mod) {
+    mod.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" ></i></div>
+  <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myB" >BODHUA FOOD VILLAGE</button>
+
+  
+  <p class="service-description">Opposite of Cumilla Zilla School,Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="myMod" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cl">&times;</span>
+    <span><h5 class="service-title">BODHUA FOOD VILLAGE</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>CHICKEN TANDOORI</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="success">
+        <td>SPECIAL PESWARI PARATA</td>
+        <td>1</td>
+        <td>30/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SPECIAL KASHMIRI NAAN</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF BIRIYANI</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BEEF CHAP</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="active">
+        <td>BEEF KABAB MASALA</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF KHICHURI</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BEEF KORAI</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BEEF MASALA</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF SHEEK</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BEEF SIZZLING</td>
+        <td>1</td>
+        <td>320/=</td>
+      </tr>
+      <tr class="active">
+        <td>CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+       <tr class="info">
+        <td>CHICKEN BIRIYANI</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN BOTI KABAB</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CHAP</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN CHOLAY BHATORAY</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN FRIED RICE</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN FRY</td>
+        <td>1</td>
+        <td>70/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN GRILL</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN KHICHURI</td>
+        <td>1</td>
+        <td>110/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN MASALA</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN NOODLES</td>
+        <td>1:1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN NOODLES (FULL)</td>
+        <td>1:4</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN RESHMI KABAB</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+       <tr class="info">
+        <td>CHICKEN SIZZLING</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN TIKKA</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHINESE VEGETABLES</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHOLAY BHATORAY</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CORN SOUP</td>
+        <td>1:3</td>
+        <td>70/=</td>
+      </tr>
+      <tr class="active">
+        <td>CORN SOUP</td>
+        <td>1:4</td>
+        <td>250/=</td>
+      </tr>
+       <tr class="info">
+        <td>EGG FRIED RICE</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>      
+      <tr class="success">
+        <td>FRENCH FRIES</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MEZBAN KHICHURI</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>MIXED NOODLES</td>
+        <td>1:1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="warning">
+        <td>MIXED NOODLES (FULL)</td>
+        <td>1:4</td>
+        <td>350/=</td>
+      </tr>
+      <tr class="active">
+        <td>MUTTON HALEEM</td>
+        <td>1</td>
+        <td>70/=</td>
+      </tr>
+       <tr class="info">
+        <td>MUTTON HALEEM</td>
+        <td>1 KG</td>
+        <td>250/=</td>
+      </tr>      
+      <tr class="success">
+        <td>MUTTON KORAI</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PRAWN MASALA</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="info">
+        <td>PRAWN SIZZLING</td>
+        <td>1</td>
+        <td>350/=</td>
+      </tr>
+      <tr class="warning">
+        <td>PULAO ROAST DIM PACKAGE</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="active">
+        <td>SET MENU A</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+       <tr class="info">
+        <td>SET MENU B</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>      
+      <tr class="success">
+        <td>SET MENU C</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SET MENU D</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPECIAL BEEF BIRIYANI</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SPECIAL BUTTER NAAN</td>
+        <td>1</td>
+        <td>40/=</td>
+      </tr>
+      <tr class="active">
+        <td>SPECIAL CHICKEN HYDARABADI</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+       <tr class="info">
+        <td>SPECIAL FRUIT NAAN</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="success">
+        <td>SPECIAL GARLIC CHILI NAAN</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SPECIAL INDIAN MIX VEGETABLES</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPECIAL LUCHI</td>
+        <td>1</td>
+        <td>20/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SPECIAL MUTTON HYDARABADI</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="active">
+        <td>THAI CLEAR SOUP</td>
+        <td>1:1</td>
+        <td>100/=</td>
+      </tr>
+       <tr class="info">
+        <td>THAI CLEAR SOUP</td>
+        <td>1:4</td>
+        <td>350/=</td>
+      </tr>      
+      <tr class="success">
+        <td>THAI SOUP</td>
+        <td>1:1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="danger">
+        <td>THAI SOUP</td>
+        <td>1:4</td>
+        <td>350/=</td>
+      </tr>
+      <tr class="info">
+        <td>VEGETABLES NOODLES</td>
+        <td>1:1</td>
+        <td>70/=</td>
+      </tr>
+      <tr class="warning">
+        <td>VEGETABLES NOODLES (FULL)</td>
+        <td>1:4</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="active">
+        <td>VEGETABLE SOUP</td>
+        <td>1:1</td>
+        <td>70/=</td>
+      </tr>
+       <tr class="info">
+        <td>VEGETABLE SOUP</td>
+        <td>1:4</td>
+        <td>250/=</td>
+      </tr>      
+      <tr class="success">
+        <td>WHOLE CHICKEN GRILL</td>
+        <td>1</td>
+        <td>350/=</td>
+      </tr>
+      <tr class="danger">
+        <td>WONTHON (FULL)</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="info">
+        <td>WONTHON (FULL)</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var mo = document.getElementById("myMod");
+
+// Get the button that opens the modal
+var baranda = document.getElementById("myB");
+
+// Get the <span> element that closes the modal
+var sponsor = document.getElementsByClassName("cl")[0];
+
+// When the user clicks the button, open the modal 
+baranda.onclick = function() {
+  mo.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+sponsor.onclick = function() {
+  mo.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == mo) {
+    mo.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+ <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="my" >CP FIVE STAR</button>
+
+  
+  <p class="service-description">fouzdari,Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="myMo" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="c">&times;</span>
+    <span><h5 class="service-title">CP FIVE STAR</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>CHICKEN BALL</td>
+        <td>1</td>
+        <td>25/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN NUGGETS</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN STICK</td>
+        <td>5 Stick</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY CHICKEN</td>
+        <td>1</td>
+        <td>65/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CRISPY CHICKEN BREAST</td>
+        <td>1</td>
+        <td>95/=</td>
+      </tr>
+      <tr class="active">
+        <td>CRISPY CHICKEN BURGER</td>
+        <td>1</td>
+        <td>135/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY CHICKEN LEG</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CRISPY CHICKEN RIB</td>
+        <td>1</td>
+        <td>115/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CRISPY CHICKEN THIGH</td>
+        <td>1</td>
+        <td>115/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY CHICKEN WING</td>
+        <td>1</td>
+        <td>75/=</td>
+      </tr>
+      <tr class="warning">
+        <td>EGG PUDDING</td>
+        <td>1</td>
+        <td>50/=</td>
+      </tr>
+      <tr class="active">
+        <td>FRIED RICE</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+       <tr class="info">
+        <td>HOT WINGS</td>
+        <td>4 pcs</td>
+        <td>110/=</td>
+      </tr>      
+      <tr class="success">
+        <td>LOLIPOP BOLOGNA</td>
+        <td>1</td>
+        <td>40/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN SAUSAGE</td>
+        <td>1</td>
+        <td>25/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPICY CHICKEN</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var m = document.getElementById("myMo");
+
+// Get the button that opens the modal
+var barand = document.getElementById("my");
+
+// Get the <span> element that closes the modal
+var sponso = document.getElementsByClassName("c")[0];
+
+// When the user clicks the button, open the modal 
+barand.onclick = function() {
+  m.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+sponso.onclick = function() {
+  m.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == m) {
+    m.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+<!-- Trigger/Open The Modal -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="m" >CAFE BLACK & WHITE</button>
+
+  
+  <p class="service-description">Fire Service road, Maldar Super Market, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="myM" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cumilla">&times;</span>
+    <span><h5 class="service-title">CAFE BLACK & WHITE</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>ARABIAN PASTA</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CHOWMEIN</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN WONTHON LARGE</td>
+        <td>1 pcs</td>
+        <td>295/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN WONTHON SMALL</td>
+        <td>6 pcs</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="active">
+        <td>FRENCH FRY</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="info">
+        <td>FRIED CHICKEN SET</td>
+        <td>4 pcs</td>
+        <td>295/=</td>
+      </tr>      
+      
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var madhiya = document.getElementById("myM");
+
+// Get the button that opens the modal
+var baran = document.getElementById("m");
+
+// Get the <span> element that closes the modal
+var spons = document.getElementsByClassName("cumilla")[0];
+
+// When the user clicks the button, open the modal 
+baran.onclick = function() {
+  madhiya.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spons.onclick = function() {
+  madhiya.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == madhiya) {
+    madhiya.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+<!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mymuna" >CAFE LIGHT HOUSE</button>
+
+  
+  <p class="service-description">Jhawtala, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="chandina" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cumill">&times;</span>
+    <span><h5 class="service-title">CAFE LIGHT HOUSE</h5></span>
+    <div class="nahid">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>BBQ CHICKEN MEAL</td>
+        <td>1</td>
+        <td>260/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BBQ WINGS</td>
+        <td>6 pcs</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BROASTED CHICKEN</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="info">
+        <td>CALAMARI GRILL</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN BASKET</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN CHILI ONION</td>
+        <td>1:2</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN CHILI ONION MEAL</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN CHOWMEIN</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN CORN SOAP</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN FALSTA PIZZA 10"</td>
+        <td>1</td>
+        <td>490/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN FALSTA PIZZA 12"</td>
+        <td>1</td>
+        <td>550/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN FALSTA PIZZA 8"</td>
+        <td>1</td>
+        <td>460/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN FRIED RICE</td>
+        <td>1:2</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN SHWARMA</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN SMOKEY PIZZA 10"</td>
+        <td>1</td>
+        <td>450/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN SMOKEY PIZZA 12"</td>
+        <td>1</td>
+        <td>490/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN SMOKEY PIZZA 8"</td>
+        <td>1</td>
+        <td>400/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRAB BBQ</td>
+        <td>1</td>
+        <td>210/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CREAM OF CHICKEN BURGER</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="active">
+        <td>CRISPY CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY FRIED WINGS</td>
+        <td>4 pcs</td>
+        <td>120/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CRUNCHY CHICKEN BURGER</td>
+        <td>1</td>
+        <td>110/=</td>
+      </tr>      
+      <tr class="success">
+        <td>FRENCH FRY</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="danger">
+        <td>FRIED WONTHON</td>
+        <td>4 pcs</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="info">
+        <td>FULL CREAM CHICKEN PASTA</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="warning">
+        <td>GRILLED CHICKEN MEAL</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="active">
+        <td>HONEY CHICKEN SALAD</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>    
+      <tr class="info">
+        <td>HOTSPICY CHICKEN PASTA</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>      
+      <tr class="active">
+        <td>LANKA BURGER</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>      
+      <tr class="success">
+        <td>LIGHT CHICKEN BURGER</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>LIGHT CREAM PASTA</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="info">
+        <td>LIGHT CRISPY MEAL</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="warning">
+        <td>LIGHT HOUSE CLASSIC PIZZA 10"</td>
+        <td>1</td>
+        <td>480/=</td>
+      </tr>
+      <tr class="active">
+        <td>LIGHT HOUSE CLASSIC PIZZA 12"</td>
+        <td>1</td>
+        <td>540/=</td>
+      </tr>
+      <tr class="info">
+        <td>LIGHT HOUSE CLASSIC PIZZA 8"</td>
+        <td>1</td>
+        <td>440/=</td>
+      </tr>      
+      <tr class="active">
+        <td>LIGHT MASALA MEAL</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>      
+      <tr class="success">
+        <td>MASALA CHICKEN</td>
+        <td>1:2</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MEAT LOVERS SUBWAY</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="info">
+        <td>MIXED CHOWMEIN</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="warning">
+        <td>MIXED FRIED RICE</td>
+        <td>1:2</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="active">
+        <td>RUPCHADA FISH MEAL</td>
+        <td>1</td>
+        <td>320/=</td>
+      </tr>
+      <tr class="success">
+        <td>RUPCHADA FRY</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="danger">
+        <td>RUPCHADA GRILL</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="info">
+        <td>SALMON FISH STEAK MEAL</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SEAFOOD BBQ</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="active">
+        <td>SEAFOOD PIZZA 10"</td>
+        <td>1</td>
+        <td>540/=</td>
+      </tr>
+      <tr class="success">
+        <td>SEAFOOD PIZZA 12"</td>
+        <td>1</td>
+        <td>590/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SEAFOOD PIZZA 8"</td>
+        <td>1</td>
+        <td>490/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPECIAL CHICKEN CHILI PASTA</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SQUID CALAMARI RINGS</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="active">
+        <td>STUDENT BURGER</td>
+        <td>1</td>
+        <td>85/=</td>
+      </tr>
+         <tr class="success">
+        <td>TANDOORI CHICKEN SPECIAL</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="danger">
+        <td>THAI MEAL</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="info">
+        <td>THAI MIXED NOODLES</td>
+        <td>1</td>
+        <td>THAI SOUP/=</td>
+      </tr>
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var madhiy = document.getElementById("chandina");
+
+// Get the button that opens the modal
+var bara = document.getElementById("mymuna");
+
+// Get the <span> element that closes the modal
+var spon = document.getElementsByClassName("cumill")[0];
+
+// When the user clicks the button, open the modal 
+bara.onclick = function() {
+  madhiy.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spon.onclick = function() {
+  madhiy.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == madhiy) {
+    madhiy.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+    <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mymun" >CAFE MARINE</button>
+
+  
+  <p class="service-description">Badurtala, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="chandin" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cumil">&times;</span>
+    <span><h5 class="service-title">CAFE MARINE</h5></span>
+    <div class="nahi">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>2 FLAVOUR PIZZA 12"</td>
+        <td>1</td>
+        <td>560/=</td>
+      </tr>      
+      <tr class="success">
+        <td>2 FLAVOUR PIZZA 10"</td>
+        <td>1</td>
+        <td>490/=</td>
+      </tr>
+      <tr class="danger">
+        <td>2 FLAVOUR PIZZA 8"</td>
+        <td>1</td>
+        <td>440/=</td>
+      </tr>
+      <tr class="info">
+        <td>BBQ PIZZA 10"</td>
+        <td>1</td>
+        <td>510/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BBQ PIZZA 12"</td>
+        <td>1</td>
+        <td>610/=</td>
+      </tr>
+      <tr class="active">
+        <td>BBQ PIZZA 8"</td>
+        <td>1</td>
+        <td>440/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF MASALA</td>
+        <td>1:2</td>
+        <td>200/=</td>
+      </tr>      
+      <tr class="active">
+        <td>BUTTER DAAL</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN BUTTER MASALA</td>
+        <td>6 pcs</td>
+        <td>/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CHILI ONION</td>
+        <td>1:2</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHCKEN CHOP SUEY</td>
+        <td>1:2</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN LOLIPOP</td>
+        <td>6 pcs</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN LOVERS PIZZA 10"</td>
+        <td>1</td>
+        <td>460/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN LOVERS PIZZA 10"</td>
+        <td>1</td>
+        <td>520/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN MUSHROOM VEGETABLES"</td>
+        <td>1:2</td>
+        <td>190/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN NOODLES</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN SAUSAGE PIZZA 10"</td>
+        <td>1</td>
+        <td>520/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN SAUSAGE PIZZA 12"</td>
+        <td>1</td>
+        <td>630/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN VEGETABLE</td>
+        <td>1:2</td>
+        <td>170/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHINESE MIXED VEGETABLES</td>
+        <td>1:2</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="info">
+        <td>EGG FRIED RICE</td>
+        <td>1:2</td>
+        <td>150/=</td>
+      </tr>      
+      <tr class="active">
+        <td>FRENCH FRIES</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>      
+      <tr class="success">
+        <td>FRIED CHICKEN</td>
+        <td>1 pcs</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="danger">
+        <td>FRIED WINGS</td>
+        <td>4 pcs</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="info">
+        <td>MARINA SPECIAL PIZZA 10"</td>
+        <td>1</td>
+        <td>420/=</td>
+      </tr>
+      <tr class="warning">
+        <td>MARINA SPECIAL PIZZA 12"</td>
+        <td>1</td>
+        <td>490/=</td>
+      </tr>
+      <tr class="active">
+        <td>MARINE PLATTER</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>    
+      <tr class="info">
+        <td>MASALA FRENCH FRIES</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="active">
+        <td>MIXED FRIED RICE</td>
+        <td>1:2</td>
+        <td>220/=</td>
+      </tr>      
+      <tr class="success">
+        <td>MIXED NOODLES</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PIZZA SANDWICH</td>
+        <td>1</td>
+        <td>450/=</td>
+      </tr>
+      <tr class="info">
+        <td>SEA FOOD PIZZA 10"</td>
+        <td>1</td>
+        <td>610/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SEA FOOD PIZZA 12"</td>
+        <td>1</td>
+        <td>670/=</td>
+      </tr>
+      <tr class="active">
+        <td>SEA FOOD PIZZA 8"</td>
+        <td>1</td>
+        <td>550/=</td>
+      </tr>
+      <tr class="info">
+        <td>SIZZLING</td>
+        <td>1:2</td>
+        <td>260/=</td>
+      </tr>      
+      <tr class="active">
+        <td>SUB MARINE</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>      
+      <tr class="success">
+        <td>SUBWAY SANDWICH</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="danger">
+        <td>WONTHON</td>
+        <td>6 pcs</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="info">
+        <td>BBQ CHICKEN PASTA</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BBQ MARINE BURGER</td>
+        <td>1</td>
+        <td>195/=</td>
+      </tr>
+      <tr class="active">
+        <td>BEEF MASHROOM PASTA</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="success">
+        <td>BEEF SPICY PASTA</td>
+        <td>1</td>
+        <td>230/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CASHWNUT SALAD</td>
+        <td>1</td>
+        <td>210/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN CORN SOAP</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN LOVERS PIZZA 8"</td>
+        <td>1</td>
+        <td>390/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN MASHROOM PASTA</td>
+        <td>1</td>
+        <td>195/=</td>
+      </tr>
+      <tr class="success">
+        <td>CHICKEN SPICY PASTA</td>
+        <td>1</td>
+        <td>185/=</td>
+      </tr>
+      <tr class="danger">
+        <td>COMBO 1</td>
+        <td>1</td>
+        <td>380/=</td>
+      </tr>
+      <tr class="info">
+        <td>COMBO 2</td>
+        <td>1</td>
+        <td>340/=</td>
+      </tr>
+      <tr class="warning">
+        <td>COUPLE PACKAGE</td>
+        <td>1:2</td>
+        <td>550/=</td>
+      </tr>
+      <tr class="active">
+        <td>HOT & SOUR SOUP</td>
+        <td>1</td>
+        <td>85/=</td>
+      </tr>
+         <tr class="success">
+        <td>JUMBO BURGER</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="danger">
+        <td>NAGA BURGER</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+      <tr class="info">
+        <td>PASTA ALIO OLIO</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>PASTA BLASHED</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PASTA ITALIANO</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="info">
+        <td>PLATTER 1</td>
+        <td>1</td>
+        <td>230/=</td>
+      </tr>
+      <tr class="warning">
+        <td>PLATTER 2</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="active">
+        <td>PLATTER 3</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="success">
+        <td>SET MENU A</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SET MENU B</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="info">
+        <td>SET MENU C</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SHORT BREAK</td>
+        <td>1</td>
+        <td>290/=</td>
+      </tr>
+      <tr class="active">
+        <td>SUB BURGER</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="success">
+        <td>SUPER GREEN PASTA</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>
+      <tr class="danger">
+        <td>THAI CLEAR SOUP</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="info">
+        <td>THAI SOUP</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+      <tr class="warning">
+        <td>TITANIC CHICKEN BURGER</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="active">
+        <td>VEGETABLE CLEAR SOUP</td>
+        <td>1</td>
+        <td>70/=</td>
+      </tr>
+         <tr class="success">
+        <td>WHITE CREAM PASTA</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var madhi = document.getElementById("chandin");
+
+// Get the button that opens the modal
+var bar = document.getElementById("mymun");
+
+// Get the <span> element that closes the modal
+var spo = document.getElementsByClassName("cumil")[0];
+
+// When the user clicks the button, open the modal 
+bar.onclick = function() {
+  madhi.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spo.onclick = function() {
+  madhi.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == madhi) {
+    madhi.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mymu" >CHAP SHOMRAT</button>
+
+  
+  <p class="service-description">Town Hall, Kandirpar, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="chandi" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cumi">&times;</span>
+    <span><h5 class="service-title">CHAP SHOMRAT</h5></span>
+    <div class="nahi">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>SPECIAL PACKAGE</td>
+        <td>1</td>
+        <td>65/=</td>
+      </tr>      
+      
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var madh = document.getElementById("chandi");
+
+// Get the button that opens the modal
+var ba = document.getElementById("mymu");
+
+// Get the <span> element that closes the modal
+var rajshahi = document.getElementsByClassName("cumi")[0];
+
+// When the user clicks the button, open the modal 
+ba.onclick = function() {
+  madh.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+rajshahi.onclick = function() {
+  madh.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == madh) {
+    madh.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+  <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mym" >CHARCOAL RESTAURANT</button>
+
+  
+  <p class="service-description">Opposite of Rupali Bank, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="chand" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cum">&times;</span>
+    <span><h5 class="service-title">CHARCOAL RESTAURANT</h5></span>
+    <div class="nahi">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>AMERICAN CHOP SUEY</td>
+        <td>1</td>
+        <td>320/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BBQ CHICKEN BURGER</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BBQ NAAN</td>
+        <td>1</td>
+        <td>40/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF BIRIYANI</td>
+        <td>1</td>
+        <td>510/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BEEF BURGER</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="active">
+        <td>BEEF KALAVUNA</td>
+        <td>1:2</td>
+        <td>320/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF LOTA KABAB</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>      
+      <tr class="active">
+        <td>BEEF MASALA</td>
+        <td>1:3</td>
+        <td>330/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BEEF NOODLES</td>
+        <td>1:1</td>
+        <td>320/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BEEF SIZZLING</td>
+        <td>1</td>
+        <td>330/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF STIR FRY</td>
+        <td>1</td>
+        <td>380/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BUTTER NAAN</td>
+        <td>1</td>
+        <td>30/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHARCOAL SP CHICKEN</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHARCOAL SP STEAK</td>
+        <td>1</td>
+        <td>700/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN AKHANI"</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN BBQ</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN BALL</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN BIRIYANI</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN BOTI KABAB</td>
+        <td>4 pcs</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN BURGER</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN BURGER WITH FRIES</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN CHAP</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN CHEESE BURGER</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN CHOP SUEY</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN HARIALI KABAB</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN RESHMI KABAB</td>
+        <td>4 pcs</td>
+        <td>230/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN SANDWICH</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>    
+      <tr class="info">
+        <td>CHICKEN STIR FRY</td>
+        <td>1</td>
+        <td>320/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN SHWARMA</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHIKCEN ON TOAST</td>
+        <td>8 pcs</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHILI GARLIC NAAN</td>
+        <td>1</td>
+        <td>60/=</td>
+      </tr>
+      <tr class="info">
+        <td>CRISPY CHICKEN BURGER</td>
+        <td>1</td>
+        <td>170/=</td>
+      </tr>
+      <tr class="warning">
+        <td>HAYDRABAD BIRIYANI</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="active">
+        <td>KING PRAWN BBQ</td>
+        <td>2 pcs</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="info">
+        <td>KORAI BBQ</td>
+        <td>1 pcs</td>
+        <td>800/=</td>
+      </tr>      
+      <tr class="active">
+        <td>MEZBANI BEEF</td>
+        <td>1:3</td>
+        <td>300/=</td>
+      </tr>      
+      <tr class="success">
+        <td>MIXED STIR FRY</td>
+        <td>1</td>
+        <td>400/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PLAIN NAAN</td>
+        <td>1</td>
+        <td>25/=</td>
+      </tr>
+      <tr class="info">
+        <td>POMFRET BBQ</td>
+        <td>1</td>
+        <td>500/=</td>
+      </tr>
+      <tr class="warning">
+        <td>PRAWN BIRIYANI</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="active">
+        <td>PRAWN CHOPSY</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="success">
+        <td>PRAWN NOODLES</td>
+        <td>1:3</td>
+        <td>290/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PRAWN STIR FRY</td>
+        <td>1</td>
+        <td>370/=</td>
+      </tr>
+      <tr class="info">
+        <td>PRAWN ON TOAST</td>
+        <td>8 pcs</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="warning">
+        <td>REGULAR FALUDA</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="active">
+        <td>SP BURGER WITH FRIES</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="success">
+        <td>SP CLUB SANDWICH</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SP KASHNIRI NAAN</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="info">
+        <td>SPECIAL GRILL CHICKEN BURGER</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>
+      <tr class="warning">
+        <td>SPECIAL FALUDA</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="active">
+        <td>SPECIAL THAI NOODLES</td>
+        <td>1:3</td>
+        <td>290/=</td>
+      </tr>
+         <tr class="success">
+        <td>SZECHUAN NOODLES</td>
+        <td>1:3</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="danger">
+        <td>T-BONE STEAK</td>
+        <td>1</td>
+        <td>600/=</td>
+      </tr>
+      <tr class="info">
+        <td>TILAPIA BBQ</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>VEGETABLE SANDWICH</td>
+        <td>1</td>
+        <td>40/=</td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var mad = document.getElementById("chand");
+
+// Get the button that opens the modal
+var kutumbapur = document.getElementById("mym");
+
+// Get the <span> element that closes the modal
+var rajshah = document.getElementsByClassName("cum")[0];
+
+// When the user clicks the button, open the modal 
+kutumbapur.onclick = function() {
+  mad.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+rajshah.onclick = function() {
+  mad.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == mad) {
+    mad.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+    <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mymensingh" >EL CLASICO</button>
+
+  
+  <p class="service-description">City Market (2nd floor), Kandirpar, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="chan" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="cu">&times;</span>
+    <span><h5 class="service-title">EL CLASICO</h5></span>
+    <div class="nahi">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>AMERICAN CHOP SUEY</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>      
+      <tr class="success">
+        <td>arabian pasta</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BANANA BUZZ</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="info">
+        <td>BBQ CHICKEN BURGER</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BBQ WINGS</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="active">
+        <td>BEEF KALAVUNA</td>
+        <td>1:2</td>
+        <td>320/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF BURGER</td>
+        <td>1</td>
+        <td>220/=</td>
+      </tr>      
+      <tr class="active">
+        <td>BURGERIZZA</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BUTTER RICE</td>
+        <td>1</td>
+        <td>130/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CASHEWNUT SALAD</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN LOLIPOP</td>
+        <td>4 pcs</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN NACHOS</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN SALAD</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN SMOKED BBQ PIZZA 10"</td>
+        <td>1</td>
+        <td>500/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN SMOKED BBQ PIZZA 12"</td>
+        <td>1</td>
+        <td>600/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN SMOKED BBQ PIZZA 8"</td>
+        <td>1</td>
+        <td>380/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN STEAK BURGER</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN STRIPS</td>
+        <td>4 pcs</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN STRIPS</td>
+        <td>6 pcs</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN SUB</td>
+        <td>1</td>
+        <td>160/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN WONTHON</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CLUB SANDWICH</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>      
+      <tr class="success">
+        <td>COLD COFFEE</td>
+        <td>1</td>
+        <td>90/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CREAM OF CHICKEN</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>CREAM OF MIX</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CREAM OF MASHROOM</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="active">
+        <td>CREAMY FRENCH FRY</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>    
+      <tr class="info">
+        <td>CRISPY CHICKEN BURGER</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>      
+      <tr class="active">
+        <td>EGG FRIED RICE</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>      
+      <tr class="success">
+        <td>EL CLASICO BURGER</td>
+        <td>1</td>
+        <td>260/=</td>
+      </tr>
+      <tr class="danger">
+        <td>EL CLASICO FRIED RICE</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>FRENCH FRIES</td>
+        <td>1</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="warning">
+        <td>FRIED CHICKEN</td>
+        <td>1 pcs</td>
+        <td>80/=</td>
+      </tr>
+      <tr class="active">
+        <td>HAKKA NOODLES</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="info">
+        <td>MASALA NOODLES</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>      
+      <tr class="active">
+        <td>MEXICAN FRIED RICE</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>      
+      <tr class="success">
+        <td>MINI SANDWICH</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="danger">
+        <td>NASI GORENG RICE</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="info">
+        <td>OREO MILK SHAKE</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="warning">
+        <td>OVEN BAKED PASTA</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="active">
+        <td>PASTA CARBONARA</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="success">
+        <td>PELE BURGER</td>
+        <td>1</td>
+        <td>200/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PIZZA CHICKEN SUB</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="info">
+        <td>PLATTER 1</td>
+        <td>1</td>
+        <td>180/=</td>
+      </tr>
+      <tr class="warning">
+        <td>PLATTER 2</td>
+        <td>1</td>
+        <td>250/=</td>
+      </tr>
+      <tr class="active">
+        <td>PLATTER 3</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="success">
+        <td>PLATTER 4</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PLATTER 5</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="info">
+        <td>PLATTER 6</td>
+        <td>1</td>
+        <td>300/=</td>
+      </tr>
+      <tr class="warning">
+        <td>POTATO WEDGES</td>
+        <td>1</td>
+        <td>70/=</td>
+      </tr>
+      <tr class="active">
+        <td>SPICY WINGS</td>
+        <td>1</td>
+        <td>140/=</td>
+      </tr>
+         <tr class="success">
+        <td>STEAK & CHEESE SUB</td>
+        <td>1</td>
+        <td>240/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SUBMARINE SUB</td>
+        <td>1</td>
+        <td>280/=</td>
+      </tr>
+      <tr class="info">
+        <td>THAI SOUP CLEAR</td>
+        <td>1</td>
+        <td>100/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>THAI SOUP THICK</td>
+        <td>1</td>
+        <td>120/=</td>
+      </tr>
+      <tr class="danger">
+        <td>WINGS BUCKET</td>
+        <td>1</td>
+        <td>190/=</td>
+      </tr>
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var norshindi = document.getElementById("chan");
+
+// Get the button that opens the modal
+var kutumbapu = document.getElementById("mymensingh");
+
+// Get the <span> element that closes the modal
+var rajsha = document.getElementsByClassName("cu")[0];
+
+// When the user clicks the button, open the modal 
+kutumbapu.onclick = function() {
+  norshindi.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+rajsha.onclick = function() {
+  norshindi.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == norshindi) {
+    norshindi.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        <!-- Trigger/Open The Modal -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="mymensing" >EL CLASICO 2 JAIL</button>
+
+  
+  <p class="service-description">Opposite of Grameen Office, Jhawtala, Cumilla</p>
+                    </div>
+<!-- The Modal -->
+<div id="cha" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="pakistan">&times;</span>
+    <span><h5 class="service-title">EL CLASICO 2 JAIL</h5></span>
+    <div class="nahi">
+      <table class="table">
+    <thead>
+      <tr>
+        <th>Food Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>ACHARI KHICHURI</td>
+        <td>1</td>
+        <td>185/=</td>
+      </tr>      
+      <tr class="success">
+        <td>APPLE FRAPPE DELIGHT</td>
+        <td>1</td>
+        <td>205/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BEEF ACHARI</td>
+        <td>1</td>
+        <td>305/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF ANGARA</td>
+        <td>1</td>
+        <td>325/=</td>
+      </tr>
+      <tr class="warning">
+        <td>BEEF KHICHURI</td>
+        <td>1</td>
+        <td>175/=</td>
+      </tr>
+      <tr class="active">
+        <td>BEEF PUDINA KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>295/=</td>
+      </tr>
+      <tr class="info">
+        <td>BEEF SALAD</td>
+        <td>1:2</td>
+        <td>195/=</td>
+      </tr>      
+      <tr class="active">
+        <td>BEEF SHEEK KABAB</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>      
+      <tr class="success">
+        <td>BEEF SHEESH KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>185/=</td>
+      </tr>
+      <tr class="danger">
+        <td>BUTTER NAAN</td>
+        <td>1</td>
+        <td>35/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN ACHARI</td>
+        <td>1</td>
+        <td>305/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN BIRIYANI</td>
+        <td>1</td>
+        <td>185/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN BOTI KABAB</td>
+        <td>1:2 (6pcs)</td>
+        <td>245/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN HARIYALI KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>305/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHICKEN KARAI</td>
+        <td>1</td>
+        <td>255/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHICKEN KHICHURI</td>
+        <td>1</td>
+        <td>155/=</td>
+      </tr>
+      <tr class="danger">
+        <td>CHICKEN RESHMI KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>295/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN SALAD</td>
+        <td>1:2</td>
+        <td>175/=</td>
+      </tr>
+      <tr class="warning">
+        <td>CHICKEN TAANDORI KABAB</td>
+        <td>1</td>
+        <td>135/=</td>
+      </tr>
+      <tr class="active">
+        <td>CHICKEN TIKKA KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>295/=</td>
+      </tr>
+      <tr class="info">
+        <td>CHICKEN TIKKA MASALA</td>
+        <td>1</td>
+        <td>325/=</td>
+      </tr>      
+      <tr class="active">
+        <td>CHOCOLATE BLAST</td>
+        <td>1</td>
+        <td>225/=</td>
+      </tr>      
+      <tr class="success">
+        <td>CHOCOLATE OVERLOAD</td>
+        <td>1</td>
+        <td>195/=</td>
+      </tr>
+      <tr class="danger">
+        <td>COLD COFFEE</td>
+        <td>1</td>
+        <td>125/=</td>
+      </tr>
+      <tr class="info">
+        <td>DAAL BUTTER FRY</td>
+        <td>1</td>
+        <td>105/=</td>
+      </tr>
+      <tr class="warning">
+        <td>DAAL MAKHNI</td>
+        <td>1</td>
+        <td>105/=</td>
+      </tr>
+      <tr class="active">
+        <td>DAAL TADKA</td>
+        <td>1</td>
+        <td>95/=</td>
+      </tr>    
+      <tr class="info">
+        <td>EL CLASICO SPECIAL NAAN</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>      
+      <tr class="active">
+        <td>FALUDA</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>      
+      <tr class="success">
+        <td>FISH TIKKA KABAB</td>
+        <td>1</td>
+        <td>355/=</td>
+      </tr>
+      <tr class="danger">
+        <td>GARLIC NAAN</td>
+        <td>1</td>
+        <td>45/=</td>
+      </tr>
+      <tr class="info">
+        <td>GREEN SALAD</td>
+        <td>1:2</td>
+        <td>185/=</td>
+      </tr>
+      <tr class="warning">
+        <td>GREEN VEGETABLE</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>
+      <tr class="active">
+        <td>GREEL BUCKET BIRIYANI</td>
+        <td>1:2</td>
+        <td>365/=</td>
+      </tr>
+      <tr class="info">
+        <td>GURDA KABAB</td>
+        <td>1</td>
+        <td>185/=</td>
+      </tr>      
+      <tr class="active">
+        <td>HANDI BIRIYANI</td>
+        <td>1</td>
+        <td>255/=</td>
+      </tr>      
+      <tr class="success">
+        <td>HYDARABADI BIRIYANI</td>
+        <td>1</td>
+        <td>235/=</td>
+      </tr>
+      <tr class="danger">
+        <td>HYDARABADI DUM BIRIYANI</td>
+        <td>1</td>
+        <td>245/=</td>
+      </tr>
+      <tr class="info">
+        <td>JAL JIRA</td>
+        <td>1</td>
+        <td>95/=</td>
+      </tr>
+      <tr class="warning">
+        <td>KACCHI BIRIYANI</td>
+        <td>1</td>
+        <td>255/=</td>
+      </tr>
+      <tr class="active">
+        <td>KASHMIRI NAAN</td>
+        <td>1</td>
+        <td>95/=</td>
+      </tr>
+      <tr class="success">
+        <td>KASHMIRI SALAD</td>
+        <td>1:2</td>
+        <td>125/=</td>
+      </tr>
+      <tr class="danger">
+        <td>KHIRI KABAB</td>
+        <td>1:2</td>
+        <td>185/=</td>
+      </tr>
+      <tr class="info">
+        <td>KORAI FISH KABAB</td>
+        <td>1</td>
+        <td>1400/=</td>
+      </tr>
+      <tr class="warning">
+        <td>KOYEL CURRY</td>
+        <td>1</td>
+        <td>150/=</td>
+      </tr>
+      <tr class="active">
+        <td>KOYEL ROAST</td>
+        <td>1</td>
+        <td>290/=</td>
+      </tr>
+      <tr class="success">
+        <td>LANKAN SPICY MASALA BIRIYANI</td>
+        <td>1</td>
+        <td>255/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MANGO FRAPPE DELIGHT</td>
+        <td>1</td>
+        <td>205/=</td>
+      </tr>
+      <tr class="info">
+        <td>MINT LASSI</td>
+        <td>1</td>
+        <td>125/=</td>
+      </tr>
+      <tr class="warning">
+        <td>MIXED SALAD</td>
+        <td>1:2</td>
+        <td>95/=</td>
+      </tr>
+      <tr class="active">
+        <td>MIXED VEGETABLE</td>
+        <td>1</td>
+        <td>85/=</td>
+      </tr>
+         <tr class="success">
+        <td>MUGHAL BIRIYANI</td>
+        <td>1</td>
+        <td>455/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MUTTON BOTI KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>295/=</td>
+      </tr>
+      <tr class="info">
+        <td>MUTTON KOSHA</td>
+        <td>1</td>
+        <td>385/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>MUTTON REZALA</td>
+        <td>1</td>
+        <td>375/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MUTTON ROGAN JOSH</td>
+        <td>1</td>
+        <td>385/=</td>
+      </tr>
+      <tr class="danger">
+        <td>MUTTON SHEESH KABAB</td>
+        <td>1:2 (6 pcs)</td>
+        <td>315/=</td>
+      </tr>
+      <tr class="info">
+        <td>PLAIN NAAN</td>
+        <td>1</td>
+        <td>30/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>PLAIN PULAO</td>
+        <td>1:1</td>
+        <td>75/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PLAIN RICE</td>
+        <td>1:1</td>
+        <td>65/=</td>
+      </tr>
+      <tr class="info">
+        <td>PRAWN FISH BBQ</td>
+        <td>1</td>
+        <td>500/=</td>
+      </tr>
+      <tr class="danger">
+        <td>PUDINA NAAN</td>
+        <td>1</td>
+        <td>45/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>RAITA SALAD</td>
+        <td>1:4</td>
+        <td>145/=</td>
+      </tr>
+      <tr class="danger">
+        <td>RUPCAHDA CURRY</td>
+        <td>1</td>
+        <td>345/=</td>
+      </tr>
+      <tr class="info">
+        <td>RUPCHADA DOPIAZU</td>
+        <td>1</td>
+        <td>345/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>RUPCHADA FISH BBQ</td>
+        <td>1</td>
+        <td>450/=</td>
+      </tr>
+      <tr class="danger">
+        <td>RUPCHADA FRY</td>
+        <td>1</td>
+        <td>325/=</td>
+      </tr>
+      <tr class="info">
+        <td>SALT LASSI</td>
+        <td>1</td>
+        <td>115/=</td>
+      </tr>
+      <tr class="danger">
+        <td>SHURMA FISH BBQ</td>
+        <td>1</td>
+        <td>645/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>STRAWBERRY FRAPPE DELIGHT</td>
+        <td>1</td>
+        <td>205/=</td>
+      </tr>
+      <tr class="danger">
+        <td>STRAWBERRY LASSI</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>
+      <tr class="info">
+        <td>SWEET LASSI</td>
+        <td>1</td>
+        <td>115/=</td>
+      </tr>
+
+      <tr class="success">
+        <td>TELAPIA FISH BBQ</td>
+        <td>1</td>
+        <td>550/=</td>
+      </tr>
+      <tr class="danger">
+        <td>TUNA FISH BBQ</td>
+        <td>1</td>
+        <td>550/=</td>
+      </tr>
+      <tr class="info">
+        <td>TUNA FISH BBQ</td>
+        <td>1</td>
+        <td>645/=</td>
+      </tr>
+      <tr class="danger">
+        <td>VEGETABLE DOPIAZA</td>
+        <td>1</td>
+        <td>145/=</td>
+      </tr>
+
+      
+      
+    </tbody>
+  </table>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Get the modal
+var norshind = document.getElementById("cha");
+
+// Get the button that opens the modal
+var kutumbap = document.getElementById("mymensing");
+
+// Get the <span> element that closes the modal
+var rajsh = document.getElementsByClassName("pakistan")[0];
+
+// When the user clicks the button, open the modal 
+kutumbap.onclick = function() {
+  norshind.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+rajsh.onclick = function() {
+  norshind.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == norshind) {
+    norshind.style.display = "none";
+  }
+}
+</script>
+                        
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        <h5 class="service-title">Food Emporio</h5>
+                        <p class="service-description">City Corporation Market, Cumilla</p>
+                    </div>
+                    <div class="each-service">
+                        <div class="service-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                        <h5 class="service-title">Food Emporio</h5>
+                        <p class="service-description">City Corporation Market, Cumilla</p>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="About">
+            <div class="container">
+                <div class="about-wrapper">
+                    <h2>About Us</h2>
+                    <p>This is HUNGRY BIRDS, Online food Delivary service. To getting foor in your door, just go to play store on your android phone and simply search  by HUNGRY BIRDS. Lets enjoy your favorrite food. </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Portfolio">
+            <div class="container">
+                <div class="block-heading">
+                    <h2>BEST FOOD</h2>
+                    <p>Healthy And Strong</p>
+                </div>
+                <div class="portfolio-wrapper clearfix">
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/10.jpg">
+                    <img src="images/10.jpg" alt="10">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">KutumBari</h5>
+                            <div class="p-desc">
+                                <div>Its Wedding Platter, Yummy Test!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/p-two.jpg">
+                    <img src="images/p-two.jpg" alt="10">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">El Classico 2.0 JAIL</h5>
+                           <div class="p-desc">
+                                <div>Its Shik kabab!! Just wow!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpg">
+                    <img src="images/p-three.jpg" alt="p-three">
+                    <div class="hover-cont-wrap">
+                       <div class="hover-cont-block">
+                           <h5 class="p-title">Pizza Dot</h5>
+                           <div class="p-desc">
+                                <div>Pizza!!!!! Just YuMmY!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/p-four.jpeg">
+                    <img src="images/p-four.jpeg" alt="p-four">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">Cafe Marine</h5>
+                           <div class="p-desc">
+                                <div>Just click to Order!! Get fast to you!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/new6.jpg">
+                    <img src="images/new6.jpg" alt="new6">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">El Classico</h5>
+                           <div class="p-desc">
+                                <div>Time for enjoy Pasta!! Lets enjoy it!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/pp7.jpg">
+                    <img src="images/pp7.jpg" alt="pp7">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">Burger & cof</h5>
+                           <div class="p-desc">
+                                <div>Do you see like this BURGER ever!! Want to eat??</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/pp8.jpg">
+                    <img src="images/pp8.jpg" alt="pp8">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">Euro King</h5>
+                           <div class="p-desc">
+                                <div>Owwwwaoooo!! Its Noodles! Unbelabable Teste!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/p-seven.jpg">
+                    <img src="images/p-seven.jpg" alt="p-seven">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                           <h5 class="p-title">Bodhua Food Village</h5>
+                           <div class="p-desc">
+                                <div>Grill or Chicken fry!! How Testy it is!!</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                    <a class="each-portfolio" data-fancybox="gallery" href="images/p-eight.jpg">
+                    <img src="images/p-eight.jpg" alt="p-eight">
+                    <div class="hover-cont-wrap">
+                        <div class="hover-cont-block">
+                            <h5 class="p-title">Fusion Cafe</h5>
+                            <div class="p-desc">
+                                <div>Want to eat??</div>
+                                <div class="icon-div"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="Testimonial">
+          <div class="testimonial-wrap">
+          <div class="container">
+            <div class="block-heading">
+              <h2>What Clients Say About Us</h2>
+            </div>
+            <ul class="testimonial-slider">
+              <li>" The service of HUNGRY BIRDS almost great!! Just impressed!! "</li>
+              <li>" I'd say that the team is excellent and it is some of the best service<br> I have received both online and offline order in a long time. "</li>
+              <li>" Behavior of Riders and manager just amazing <br> Wish HUNGRY BIRDS service will increase all over the country "</li>
+              <li>"Famous in cumilla Town"</li>
+              <li>"Thanks HB!!! I got food today than my desired time!! "</li>
+            </ul>
+          </div>
+        </div>
+        </section>
+       
+        <section id="ContactUs">
+            <div class="container contact-container">
+                <h3 class="contact-title">Get In Touch</h3>
+                <div class="contact-outer-wrapper">
+                    <div class="address-block">
+                        <p class="add-title">Contact Details</p>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="c-info">Q Palace, 2nd Floor, Race course, Cumilla</span>
+                        </div>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span> <span class="c-info">+8801521407782</span>
+                        </div>
+                        <div class="c-detail">
+                            <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span> <span class="c-info">nbhuiyan7767@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="form-wrap">
+                        <p class="add-title">Send Us Opinion</p>
+                        <form>
+                            <div class="fname floating-label">
+                                <input type="text" class="floating-input" name="full name" id="full-name-field" />
+                                <label for="full-name-field">Full Name</label>
+                            </div>
+                            <div class="email floating-label">
+                                <input type="email" class="floating-input" name="email" id="mail-field" />
+                                <label for="mail-field">Email</label>
+                            </div>
+                            <div class="contact floating-label">
+                                <input type="tel" class="floating-input" name="contact" id="contact-us-field" />
+                                <label for="contact-us-field">Contact</label>
+                            </div>
+                            <div class="company floating-label">
+                                <input type="text" class="floating-input" name="company" id="company-field" />
+                                <label for="company-field">Location</label>
+                            </div>
+                            <div class="user-msg floating-label">
+                                <textarea class="floating-input" name="user message" id="user-msg-field"></textarea>
+                                <label for="user-msg-field" class="msg-label">Your Message</label>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       <footer id="Footer">
+            <div class="container">
+                <div class="social-share">
+                    <div class="new" style="float: center;">
+                        <a href="#" class="fa fa-facebook" float: center;></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-vine"></a>
+                </div>
+
+                </div>
+                <div class="footer-logo-wrap">
+                    Design it; 2019. Designed by <a href="#">Nahid From CCNUST</a>
+                </div>
+            </div>
+        </footer>
+       
+    </section>
+    
+
+</body>
+
+</html>
